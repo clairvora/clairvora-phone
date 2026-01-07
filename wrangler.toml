@@ -1,0 +1,11 @@
+name = "clairvora-phone"
+main = "src/index.ts"
+compatibility_date = "2025-01-07"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "clairvora"
+database_id = "" # Same database as main app
+
+[vars]
+# Twilio credentials will be set as secrets via wrangler secret put
